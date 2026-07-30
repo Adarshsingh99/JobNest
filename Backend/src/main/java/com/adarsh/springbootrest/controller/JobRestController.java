@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import com.adarsh.springbootrest.service.JobService;
 
 @RestController
-@CrossOrigin
+@CrossOrigin(origins = {"http://localhost:5173", "${frontend.url:http://localhost:5173}"})
 public class JobRestController {
 	
 	@Autowired
