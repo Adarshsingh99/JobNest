@@ -1,0 +1,36 @@
+# =============================================
+# ROOT — FullStack Job Posting App .gitignore
+# =============================================
+
+# ---- Backend (Spring Boot / Maven) ----
+Backend/target/
+Backend/.mvn/wrapper/maven-wrapper.jar
+Backend/*.log
+Backend/.idea/
+Backend/*.iml
+Backend/.classpath
+Backend/.project
+Backend/.settings/
+
+# ---- Frontend (React / Vite / Node) ----
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.local
+
+# ---- Sensitive / Environment ----
+*.env
+.env
+.env.*
+!.env.example
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Editor ----
+.vscode/
+.idea/
+*.suo
+*.user
